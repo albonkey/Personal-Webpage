@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/personal-webpage/static/css/main.2f80e392.chunk.css",
+    "main.js": "/personal-webpage/static/js/main.9e057891.chunk.js",
+    "main.js.map": "/personal-webpage/static/js/main.9e057891.chunk.js.map",
+    "runtime-main.js": "/personal-webpage/static/js/runtime-main.64d607bf.js",
+    "runtime-main.js.map": "/personal-webpage/static/js/runtime-main.64d607bf.js.map",
+    "static/js/2.a80a89ec.chunk.js": "/personal-webpage/static/js/2.a80a89ec.chunk.js",
+    "static/js/2.a80a89ec.chunk.js.map": "/personal-webpage/static/js/2.a80a89ec.chunk.js.map",
+    "static/js/3.d8fc1af5.chunk.js": "/personal-webpage/static/js/3.d8fc1af5.chunk.js",
+    "static/js/3.d8fc1af5.chunk.js.map": "/personal-webpage/static/js/3.d8fc1af5.chunk.js.map",
+    "index.html": "/personal-webpage/index.html",
+    "static/css/main.2f80e392.chunk.css.map": "/personal-webpage/static/css/main.2f80e392.chunk.css.map",
+    "static/js/2.a80a89ec.chunk.js.LICENSE.txt": "/personal-webpage/static/js/2.a80a89ec.chunk.js.LICENSE.txt",
+    "static/media/img-01.jpg": "/personal-webpage/static/media/img-01.05bf8b1b.jpg",
+    "static/media/img-02.jpg": "/personal-webpage/static/media/img-02.ed042d08.jpg",
+    "static/media/img-03.jpg": "/personal-webpage/static/media/img-03.1f0c67c4.jpg",
+    "static/media/img-04.jpg": "/personal-webpage/static/media/img-04.9c400798.jpg",
+    "static/media/img-05.jpg": "/personal-webpage/static/media/img-05.73f24b75.jpg",
+    "static/media/img-06.jpg": "/personal-webpage/static/media/img-06.be9fc04b.jpg",
+    "static/media/img-07.jpg": "/personal-webpage/static/media/img-07.7586c5ae.jpg",
+    "static/media/img-08.jpg": "/personal-webpage/static/media/img-08.5e080804.jpg",
+    "static/media/img-09.jpg": "/personal-webpage/static/media/img-09.d343665b.jpg",
+    "static/media/img-10.jpg": "/personal-webpage/static/media/img-10.9d0dc978.jpg",
+    "static/media/img-11.jpg": "/personal-webpage/static/media/img-11.44772448.jpg",
+    "static/media/img-12.jpg": "/personal-webpage/static/media/img-12.fbdbdb62.jpg",
+    "static/media/img-13.jpg": "/personal-webpage/static/media/img-13.12f1fdaa.jpg",
+    "static/media/img-14.jpg": "/personal-webpage/static/media/img-14.95da297d.jpg",
+    "static/media/img-2.jpg": "/personal-webpage/static/media/img-2.598f3d48.jpg",
+    "static/media/img.jpg": "/personal-webpage/static/media/img.8f53624c.jpg",
+    "static/media/img22.png": "/personal-webpage/static/media/img22.15a8b615.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64d607bf.js",
+    "static/js/2.a80a89ec.chunk.js",
+    "static/css/main.2f80e392.chunk.css",
+    "static/js/main.9e057891.chunk.js"
+  ]
+}
