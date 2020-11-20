@@ -1,0 +1,53 @@
+.testimonials-section{
+  padding: 0 75px 50px 75px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.testimonial-card{
+  min-height: 500px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: RGB(242,242,242);
+}
+.testimonial{
+  width: 70%;
+  padding: 50px 0
+
+}
+.testimonial-card-text{
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.testimonial-card-signature{
+  margin: 30px 0px 0px 0px;
+  line-height: 2;
+}
+.arrow-left{
+  position: absolute;
+  left: 25px;
+}
+.testimonial-card-dots{
+  position: absolute;
+  bottom: 25px;
+  display: flex;
+
+}
+.dot{
+  width: 10px;
+  height: 10px;
+  background-color:  RGB(150,150,150);
+  border-radius: 5px;
+  margin:  0 5px;
+}
+.dot-active{
+  width: 10px;
+  height: 10px;
+  background-color:  RGB(52,52,52);
+  border-radius: 5px;
+  margin:  0 5px;
+}

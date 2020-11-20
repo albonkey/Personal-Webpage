@@ -1,0 +1,10 @@
+.project-list{
+  padding-top: 75px;
+  width: 100%;
+}
+@media (min-width: 900px) {
+      .project-list{
+        padding:75px;
+      }
+
+}

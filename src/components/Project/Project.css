@@ -1,0 +1,44 @@
+.project{
+  background-color: RGB(242,242,242);
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+
+}
+.project img{
+  width: 100%;
+  
+  min-width: 300px;
+  box-sizing: border-box;
+
+  order:2;
+}
+.project-info{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 50px;
+  min-width: 450px;
+  order: 1;
+}
+.project-info p{
+  margin-top: 25px;
+  line-height: 1.7;
+  width: 100%;
+}
+.project-info a{
+  display: block;
+  margin-top: 25px;
+}
+
+@media (min-width: 1300px) {
+      .project-info{
+        width: 60%;
+        order: 2;
+      }
+      .project img{
+        width: 40%;
+        padding:0;
+        order:1;
+      }
+
+}

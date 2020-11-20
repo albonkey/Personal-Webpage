@@ -1,0 +1,73 @@
+.about-me-section{
+  display: flex;
+  align-items: center;
+  background-color: RGB(242,242,242);
+  min-height: 450px;
+  box-sizing: border-box;
+  width: 100vw;
+  flex-wrap: wrap;
+  padding: 30px 75px;
+  min-width: 600px;
+}
+.about-me-section .bio{
+  width: 100%;
+  min-width: 450px;
+  margin-right: 50px;
+}
+.bio h2{
+  font-size: 3rem;
+  margin: 0px 0 10px 0;
+  color: RGB(18,18,18);
+}
+.bio .undertext{
+  font-size: 1.5rem;
+  color: RGB(60,60,60);
+  margin: 10px 0;
+}
+
+.bio .action-buttons-container{
+  margin: 20px 0;
+}
+.bio .action-buttons-container button{
+  padding: 15px 20px;
+  margin-right: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: RGB(222, 133, 0);
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+}
+.bio .action-buttons-container button:nth-child(2){
+  background-color: RGB(60,60,60);
+}
+.bio .action-buttons-container button:hover{
+  opacity: 0.8;
+}
+.bio .action-buttons-container .btn-icon{
+  margin-right: 10px;
+}
+.about-me-section img{
+   width: 100%;
+}
+@media (min-width: 1000px) {
+      .about-me-section{
+        justify-content: space-between;
+      }
+      .about-me-section .bio{
+        width: 45%;
+      }
+      .about-me-section img{
+         width: 300px;
+      }
+}
+@media (min-width: 1300px) {
+  .about-me-section{
+    height: 40vh;
+    width: 100%;
+  }
+  .about-me-section img{
+     width: max(17vw, 250px);
+     margin-right: 100px;
+  }
+}

@@ -1,0 +1,98 @@
+
+.side-header{
+  width: 100vw;
+  background-color: RGB(222, 133, 0);
+  color: white;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+  min-width: 600px;
+}
+.side-header .menu-btn{
+  position: absolute;
+  left:0;
+  top: 0;
+  margin: 30px 0px 0px 30px;
+}
+.side-header h1{
+  padding: 2vh 0;
+  font-size: 1.8rem;
+}
+.side-header a{
+  text-decoration: none;
+  color: white;
+}
+.side-header a:hover{
+  color: RGB(130, 74, 0);
+}
+.nav-bar{
+  height: 100vh;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .2s ease-out;
+}
+.navigation-section{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid RGB(191, 115, 0);
+}
+
+.navigation-section .list-item{
+  margin: 25px 0;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: .1s;
+}
+.navigation-section .list-item:hover{
+  color: RGB(130, 74, 0);
+}
+.navigation-section .list-item .nav-icon{
+  margin-right:10px;
+  width: 30px;
+}
+.profile-section{
+  border-bottom: 1px solid RGB(191, 115, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-section img{
+  display: block;
+  max-width: 180px;
+  border-radius: 150%;
+
+}
+.profile-section p{
+  width: 90%;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+#btnControl {
+    display: none;
+}
+
+#btnControl:checked ~ .nav-bar {
+    max-height: 100vh;
+}
+
+@media (min-width: 1300px) {
+      .side-header{
+            width: 15vw;
+            max-height: 100vh;
+            min-width: 300px;
+            position: fixed;
+       }
+       .menu-btn{
+         display: none;
+       }
+       .nav-bar{
+         max-height: 100vh;
+       }
+
+}

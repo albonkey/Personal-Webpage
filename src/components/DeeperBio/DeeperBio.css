@@ -1,0 +1,50 @@
+.deeper-bio{
+  padding: 50px 75px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  min-width: 600px;
+}
+.deeper-bio-text{
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+.deeper-bio p{
+  font-size: 1.3rem;
+  margin: 0 0 20px 0;
+}
+.deeper-bio-image{
+  width: 100%;
+  text-align: center;
+  box-shadow: 2px 2px 10px grey;
+  padding: 10px;
+}
+.deeper-bio-image div{
+  padding: 10px 0 5px 0;
+  color: RGB(52,52,52);
+}
+.deeper-bio img{
+  width: 100%;
+}
+.bold-word{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+@media (min-width: 900px) {
+  .deeper-bio-image{
+    width: 60%;
+  }
+}
+@media (min-width: 1300px) {
+  .deeper-bio-text{
+    width: 50%;
+  }
+  .deeper-bio-image{
+    width: 40%;
+  }
+
+}

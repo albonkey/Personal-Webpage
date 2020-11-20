@@ -1,0 +1,14 @@
+.icon{
+  margin:0 5px;
+  transition: .2s;
+  cursor: pointer;
+}
+.icon:hover{
+  color: RGB(130, 74, 0);
+}
+.social-media-icons{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
