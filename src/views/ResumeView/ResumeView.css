@@ -1,1 +1,10 @@
-.resume-view
+.resume-view{
+  padding:  0 25px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1300px){
+  .resume-view{
+    padding: 0 150px;
+  }
+}

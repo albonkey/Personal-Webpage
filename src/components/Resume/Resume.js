@@ -146,7 +146,7 @@ const Resume = () => {
             <p className='section-paragraph'>
               I like taking pictures
               and editing videoes. I have been having my own
-              youtube channel and upload from time to time..
+              youtube channel and upload from time to time.
             </p>
           </div>
         </div>

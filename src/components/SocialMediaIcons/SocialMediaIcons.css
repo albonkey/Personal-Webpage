@@ -1,14 +1,28 @@
 .icon{
-  margin:0 5px;
+  margin:10px 10px;
   transition: .2s;
   cursor: pointer;
 }
 .icon:hover{
-  color: RGB(130, 74, 0);
+  color: RGB(160, 90, 0);
 }
 .social-media-icons{
   list-style: none;
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  display: none;
+  margin: 25px 0;
+  background-color: RGBA(255,255,255,.4);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 25px 0;
+  color:RGB(18,18,18);
+}
+@media (min-width: 900px) {
+  .social-media-icons{
+      display: flex;
+  }
+
 }

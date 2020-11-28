@@ -53,10 +53,6 @@ const DeeperBio = () => {
             that you should never stop <span className='bold-word'>learning</span>.
           </p>
         </div>
-        <div className='deeper-bio-image' onMouseEnter={() => setHoverImage(true)} onMouseLeave={() => setHoverImage(false)}>
-          <img src={require(`../../assets/${image}`).default} />
-          <div>Hover Me</div>
-        </div>
 
     </div>
   )

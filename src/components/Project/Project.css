@@ -3,14 +3,13 @@
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 50px;
-
+  border-radius: 3px;
+  overflow: hidden;
 }
 .project img{
   width: 100%;
-  
   min-width: 300px;
   box-sizing: border-box;
-
   order:2;
 }
 .project-info{

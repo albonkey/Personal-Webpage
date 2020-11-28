@@ -17,8 +17,9 @@ const Testimonials = () => {
   }
   return(
     <div className='testimonials-section'>
-      <h3 className='heading3'>Testimonials</h3>
       <div className='testimonial-card' onClick={() => changeTestimonial()}>
+      <div className='quote-marks-box'></div>
+      <div className='quote-marks'>"</div>
         <div className='testimonial'>
           <div className='testimonial-card-text'>
             "{testimonial.testimonial}"
@@ -31,6 +32,7 @@ const Testimonials = () => {
         <div className='testimonial-card-dots'>
           <div className={index === 0 ? 'dot-active' : 'dot' }></div>
           <div className={index === 1 ? 'dot-active' : 'dot' }></div>
+          <div className={index === 2 ? 'dot-active' : 'dot' }></div>
         </div>
       </div>
     </div>

@@ -2,8 +2,12 @@
   margin: 0;
   padding: 0;
 }
+a{
+  color: inherit;
+  text-decoration: none;
+}
 .App {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
@@ -25,9 +29,34 @@
 .text-secondary{
   color: RGB(52,52,52);
 }
-@media (min-width: 1300px) {
-      .view{
-          margin-left: max(15vw, 300px);
-      }
+.action-button{
+  background-color: orange;
+  color: white;
+  border: 1px solid orange;
+  border-radius: 3px;
+  transition: .2s;
+
+}
+.action-button:hover{
+  background-color: white;
+  color: orange;
+}
+.button-hook{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 15px 50px;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  transition: .2s;
+  cursor: pointer;
+}
+.button-hook:hover{
+  background-color: orange;
+}
+@media (min-width: 900px) {
+  .button-hook{
+    background-color: transparent;
+  }
 
 }
