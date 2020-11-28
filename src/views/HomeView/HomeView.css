@@ -3,7 +3,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 .hook{
   display: flex;
@@ -15,20 +17,19 @@
   background-position: -500px;
   box-sizing: border-box;
   position: relative;
-  height: 100vh;
   width: 100vw;
-  min-width: 650px;
+  height: 100vh;
+  padding: 200px 0 75px 0;
 }
 .hook h1{
+  display: none;
   font-size: 4.5rem;
   color: RGB(18,18,18);
-  margin-top: 300px;
-
   border-radius: 3px;
 }
 .hook h2{
   font-size: 3rem;
-  margin: 5px 0;
+  margin: 200px 0 5px 0;
   color: orange;
   border-radius: 3px;
 }
@@ -49,6 +50,9 @@
   position: fixed;
   right: 0;
 
+}
+.deeper-bio-section{
+  width: 100%;
 }
 .testimonial-section{
   background-size: cover;
@@ -98,8 +102,10 @@
         background-position: -50px;
       }
       .hook h1{
-        font-size: 5rem;
-        margin-top: 0;
+        display: block;
+      }
+      .hook h2{
+        margin:5px 0;
       }
       .hook .white-background{
         background-color: transparent;

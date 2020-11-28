@@ -1,5 +1,6 @@
 import React from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import TopHeader from './components/TopHeader/TopHeader';
 import Footer from './components/Footer/Footer';
@@ -14,6 +15,10 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <Helmet>
+          <title>Carl Solli</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+        </Helmet>
         <ScrollToTop />
         <TopHeader />
         <Route path='/portfolio' component={PortfolioView} />

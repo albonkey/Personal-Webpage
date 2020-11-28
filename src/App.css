@@ -43,20 +43,16 @@ a{
 }
 .button-hook{
   background-color: white;
-  border: 1px solid black;
+  border: none;
   border-radius: 3px;
-  padding: 15px 50px;
+  padding: 20px 50px;
   font-size: 1.5rem;
-  margin-right: 15px;
+  font-weight: bold;
+  margin-top: 25px;
+  box-shadow: 1px 1px 10px grey;
   transition: .2s;
   cursor: pointer;
 }
 .button-hook:hover{
   background-color: orange;
-}
-@media (min-width: 900px) {
-  .button-hook{
-    background-color: transparent;
-  }
-
 }

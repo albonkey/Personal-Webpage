@@ -5,7 +5,6 @@
   flex-wrap: wrap;
   justify-content: center;
   box-sizing: border-box;
-  min-width: 600px;
   text-align: center;
 }
 .deeper-bio-text{

@@ -1,6 +1,7 @@
 .project{
   background-color: RGB(242,242,242);
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 50px;
   border-radius: 3px;
@@ -8,15 +9,14 @@
 }
 .project img{
   width: 100%;
-  min-width: 300px;
   box-sizing: border-box;
+  padding: 25px;
   order:2;
 }
 .project-info{
   width: 100%;
   box-sizing: border-box;
   padding: 50px;
-  min-width: 450px;
   order: 1;
 }
 .project-info p{
@@ -29,7 +29,7 @@
   margin-top: 25px;
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 900px) {
       .project-info{
         width: 60%;
         order: 2;

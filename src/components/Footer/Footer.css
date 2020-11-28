@@ -24,7 +24,7 @@
   min-width: 500px;
   height: 3vh;
   margin-bottom: 7vh;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
 
@@ -51,6 +51,9 @@
 }
 
 @media (min-width: 900px){
+  .footer-nav{
+    display: flex;
+  }
   .footer-nav ul{
     width: 70%;
   }

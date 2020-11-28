@@ -1,6 +1,7 @@
 .resume-view{
   padding:  0 25px;
   box-sizing: border-box;
+  width: 100%;
 }
 
 @media (min-width: 1300px){

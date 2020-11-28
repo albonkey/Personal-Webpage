@@ -14,23 +14,19 @@ const HomeView = () => {
         <h1 className='white-background'>HEY, WHAT'S UP?</h1>
         <h2 className='white-background'>I'm Carl Solli.</h2>
         <p className='white-background'>Software Developer</p>
-        <div className='hook-button-container'>
-          <Link to='/portfolio'>
-            <button className='button-hook'>
-              View Portfolio
-            </button>
-          </Link>
-          <Link to='/resume'>
-            <button className='button-hook'>
-              View Resume
-            </button>
-          </Link>
-        </div>
+        <Link to='/contact'>
+          <button className='button-hook'>
+            Contact me
+          </button>
+        </Link>
         <div className='social-media-container'>
           <SocialMediaIcons />
         </div>
       </div>
-      <DeeperBio />
+      <div className='deeper-bio-section'>
+        <DeeperBio />
+      </div>
+
       <div className='testimonial-section'>
         <Testimonials />
       </div>

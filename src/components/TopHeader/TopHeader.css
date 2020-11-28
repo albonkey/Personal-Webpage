@@ -9,11 +9,10 @@
   background-color: white;
   transition: background-color .2s ease-out;
   overflow: hidden;
-  width: 100%;
+  width: 100vw;
   padding: 25px 25px;
 }
 .top-header .logo-container{
-  min-width: 300px;
   box-sizing: border-box;
 }
 .top-header .logo{
@@ -24,7 +23,7 @@
   box-sizing: border-box;
   transition: max-height .2s ease-out;
   max-height: 0;
-  width: 100%;
+  width: 100vw;
 }
 .top-header ul{
   display: flex;
@@ -34,7 +33,6 @@
   list-style: none;
   width: 100%;
   box-sizing: border-box;
-  padding: 25px;
 }
 .top-header .list-item{
   box-sizing: border-box;
@@ -43,7 +41,6 @@
   text-align: center;
   padding: 25px 50px;
   text-align: center;
-  max-width: 50%;
 }
 
 .top-header .list-item:hover{
@@ -62,7 +59,7 @@
 }
 
 #btnControl:checked ~ nav{
-    max-height: 40vh;
+    max-height: 50vh;
 }
 
 @media (min-width: 900px) {

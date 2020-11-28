@@ -42,29 +42,23 @@ const ContactForm = () => {
         <div className='contact-form'>
           <h1>Message me </h1>
           <form onSubmit={submitHandler}>
-            <ul>
-              <li>
-                <div className='input-box'>
-                  <label htmlFor='name'>Name</label>
-                  <input type='text' name='name' id='name' required={true} onChange={(e) => setName(e.target.value)}></input>
-                </div>
-                <div className='input-box'>
-                  <label htmlFor='email'>Email</label>
-                  <input type='email' name='email' id='email' required={true} onChange={(e) => setEmail(e.target.value)}></input>
-                </div>
-                <div className='input-box'>
-                  <label htmlFor='subject'>Subject</label>
-                  <input type='text' name='subject' id='subject' required={true} onChange={(e) => setSubject(e.target.value)}></input>
-                </div>
-                <div className='input-box'>
-                  <label htmlFor='message'>Message</label>
-                  <textarea name='message' id='message' required={true} onChange={(e) => setMessage(e.target.value)}></textarea>
-                </div>
-              </li>
-              <li>
-                <button type='submit' className='button-primary'>Send Message</button>
-              </li>
-            </ul>
+            <div className='input-box'>
+              <label htmlFor='name'>Name</label>
+              <input type='text' name='name' id='name' required={true} onChange={(e) => setName(e.target.value)}></input>
+            </div>
+            <div className='input-box'>
+              <label htmlFor='email'>Email</label>
+              <input type='email' name='email' id='email' required={true} onChange={(e) => setEmail(e.target.value)}></input>
+            </div>
+            <div className='input-box'>
+              <label htmlFor='subject'>Subject</label>
+              <input type='text' name='subject' id='subject' required={true} onChange={(e) => setSubject(e.target.value)}></input>
+            </div>
+            <div className='input-box'>
+              <label htmlFor='message'>Message</label>
+              <textarea name='message' id='message' required={true} onChange={(e) => setMessage(e.target.value)}></textarea>
+            </div>
+            <button type='submit' className='button-primary'>Send Message</button>
           </form>
         </div>
       }
