@@ -3,7 +3,6 @@ import {BrowserRouter, Route} from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import TopHeader from './components/TopHeader/TopHeader';
 import Footer from './components/Footer/Footer';
-import MainView from './views/MainView/MainView';
 import PortfolioView from './views/PortfolioView/PortfolioView';
 import ResumeView from './views/ResumeView/ResumeView';
 import ContactView from './views/ContactView/ContactView';
