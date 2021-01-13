@@ -11,8 +11,8 @@ const HomeView = () => {
   return(
     <div className='home-view'>
       <div className='hook'>
-        <h1 className='white-background'>HEY, WHAT'S UP?</h1>
-        <h2 className='white-background'>I'm Carl Solli.</h2>
+        <div className='white-background'>HEY, WHAT'S UP?</div>
+        <h1 className='white-background'>I'm Carl Solli.</h1>
         <p className='white-background'>Software Developer</p>
         <Link to='/contact'>
           <button className='button-hook'>

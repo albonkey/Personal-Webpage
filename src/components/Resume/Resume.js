@@ -145,7 +145,7 @@ const Resume = () => {
             <h5 className='section-inner-heading'>Filmmaking/ Photography</h5>
             <p className='section-paragraph'>
               I like taking pictures
-              and editing videoes. I have been having my own
+              and editing videoes. I have my own
               youtube channel and upload from time to time.
             </p>
           </div>
